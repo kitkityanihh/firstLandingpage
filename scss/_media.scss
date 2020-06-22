@@ -185,9 +185,18 @@
 
 // Landscape
 @media (max-height: 580px) {
+  #main-nav {
+    ul {
+      display: flex;
+      padding-top: 1.5rem;
+    }
+    li {
+      padding: 1rem;
+    }
+  }
   #header-home {
     .header-content {
-      padding-top: 4rem;
+      padding-top: 7rem;
     }
   }
 }
