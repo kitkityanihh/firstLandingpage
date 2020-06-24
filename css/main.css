@@ -379,8 +379,13 @@ img {
       height: 5rem; } }
 
 @media (max-height: 580px) {
+  #main-nav ul {
+    display: flex;
+    padding-top: 1.5rem; }
+  #main-nav li {
+    padding: 1rem; }
   #header-home .header-content {
-    padding-top: 4rem; } }
+    padding-top: 7rem; } }
 
 @media (max-height: 330px) {
   #header-home .header-content h1 {
